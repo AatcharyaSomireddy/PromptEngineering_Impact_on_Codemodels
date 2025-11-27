@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='clean_code_matrix_transpose', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 4.482269287109375e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 15:00:00.593165",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='clean_code_matrix_transpose', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.7012004852294922,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:00:01.294401",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='clean_code_matrix_transpose', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "model:\n\n[RETURN]\n   [CONSTRUCTOR]\nInstantiate[PROTECTION_TYPE][FUNCTION_TYPE]( )[FUNCTION_TYPE].) {\n\n}\n\n[DEFAULT_TYPE][RETURN_TYPE][RETURN]\n addQuery[CALLBACK_TYPE][PARAMETERS][PARAMETER]{{\n\n[PARAMETERS][VALIDATION",
+    "execution_time": 8.300450801849365,
+    "token_count": 10,
+    "timestamp": "2025-11-03 15:00:09.594902",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n', strategy='zero_shot', problem_id='clean_code_matrix_transpose', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a well-structured Java program...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.8835067749023438e-05,
+    "token_count": 53,
+    "timestamp": "2025-11-03 15:00:09.595100",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n', strategy='zero_shot', problem_id='clean_code_matrix_transpose', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.9256119728088379,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:00:10.520734",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n', strategy='zero_shot', problem_id='clean_code_matrix_transpose', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "syntax.{code.\nConstraints:comments:",
+    "execution_time": 0.2715117931365967,
+    "token_count": 2,
+    "timestamp": "2025-11-03 15:00:10.792292",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='clean_code_matrix_transpose', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.4543533325195312e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 15:00:10.792361",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='clean_code_matrix_transpose', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.6079955101013184,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:00:11.400376",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='clean_code_matrix_transpose', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "softprocedure:\n\nProblem:example:default:default:seniorsyntax:default:yourcode:\n\nProblem:Benefit:\n\nProblem:probablyasyntax:cass::eitherdollar.)) .)new}",
+    "execution_time": 1.0749132633209229,
+    "token_count": 5,
+    "timestamp": "2025-11-03 15:00:12.475322",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\n2. Consider: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n3. Implement Java solution\\n', strategy='cot', problem_id='clean_code_matrix_transpose', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a well-structured J...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.0967254638671875e-05,
+    "token_count": 54,
+    "timestamp": "2025-11-03 15:00:12.475376",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\n2. Consider: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n3. Implement Java solution\\n', strategy='cot', problem_id='clean_code_matrix_transpose', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.8355512619018555,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:00:13.310950",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\n2. Consider: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n3. Implement Java solution\\n', strategy='cot', problem_id='clean_code_matrix_transpose', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "equivalent.function.*,classifier)()=",
+    "execution_time": 0.3788571357727051,
+    "token_count": 1,
+    "timestamp": "2025-11-03 15:00:13.689851",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n', strategy='few_shot', problem_id='clean_code_matrix_transpose', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.4543533325195312e-05,
+    "token_count": 56,
+    "timestamp": "2025-11-03 15:00:13.689908",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n', strategy='few_shot', problem_id='clean_code_matrix_transpose', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.8131625652313232,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:00:14.503088",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a well-structured Java program to find the transpose of a matrix following naming, indentation, and commenting standards.\\nConstraints: Follow Java naming conventions (camelCase). Include inline comments. Maintain consistent indentation.\\n', strategy='few_shot', problem_id='clean_code_matrix_transpose', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "{\n\nConstraints:Babel.(camelCase)(camelCase).The Javanaming conventions(camelCase) \" .+.( (_C:\\n\" + \"Namers: \" \") ;new0;\nCake\"(;+(.(. join ()\" ) ;. innerJoin (",
+    "execution_time": 2.4108424186706543,
+    "token_count": 19,
+    "timestamp": "2025-11-03 15:00:16.913977",
+    "success": true,
+    "error_message": null
+  }
+]

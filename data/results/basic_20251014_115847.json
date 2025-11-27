@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='find_leaf_nodes', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.8835067749023438e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:58:37.828233",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='find_leaf_nodes', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.2864949703216553,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:58:38.114797",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='find_leaf_nodes', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": ":\n\nProblem:)))the)(node.) ;{..goto).;.).:.( ).(",
+    "execution_time": 4.114461898803711,
+    "token_count": 4,
+    "timestamp": "2025-10-14 11:58:42.229304",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n', strategy='few_shot', problem_id='find_leaf_nodes', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 5.435943603515625e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:58:42.229425",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n', strategy='few_shot', problem_id='find_leaf_nodes', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.2932090759277344,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:58:42.522663",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n', strategy='few_shot', problem_id='find_leaf_nodes', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "= [.\nConstraints:this node is defined asto compute thethe tree ofthe leaf nodes.\nConstraints:(inthasChildren(int).(){\nokokokok ok.\nokokokok(, 2 )i ++ ) {}\nokokokok(else {\nokokokok) {\nokokok.",
+    "execution_time": 2.006148338317871,
+    "token_count": 27,
+    "timestamp": "2025-10-14 11:58:44.528862",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n', strategy='zero_shot', problem_id='find_leaf_nodes', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a Java method that finds all t...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 3.0040740966796875e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:58:44.529002",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n', strategy='zero_shot', problem_id='find_leaf_nodes', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.3077504634857178,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:58:44.836782",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n', strategy='zero_shot', problem_id='find_leaf_nodes', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "on",
+    "execution_time": 0.1417229175567627,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:58:44.978539",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\n2. Consider: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n3. Implement Java solution\\n', strategy='cot', problem_id='find_leaf_nodes', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a Java method that ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 9.775161743164062e-06,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:58:44.978588",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\n2. Consider: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n3. Implement Java solution\\n', strategy='cot', problem_id='find_leaf_nodes', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.497359037399292,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:58:45.475967",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\n2. Consider: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n3. Implement Java solution\\n', strategy='cot', problem_id='find_leaf_nodes', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "equivalent.english.\n5.goto))*/",
+    "execution_time": 0.40803956985473633,
+    "token_count": 2,
+    "timestamp": "2025-10-14 11:58:45.884054",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='find_leaf_nodes', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.9311904907226562e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:58:45.884127",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='find_leaf_nodes', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.478482723236084,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:58:46.362631",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that finds all the leaf nodes in a binary tree and returns them in a list.\\nConstraints: Handle empty trees gracefully. A leaf node is defined as a node with no children.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='find_leaf_nodes', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "{{[PARAMETERS]{}]]var= [RETURN_TYPE][RETURN_TYPE] {\n[RETURN_TYPE][RETURN]\n[RETURN_TYPE][RETURN_TYPE]; }) {[EXPRESSION]}( BINDING_NAME]}[SUCCESS_TYPE].) {.:. error ( \"",
+    "execution_time": 1.6363525390625,
+    "token_count": 12,
+    "timestamp": "2025-10-14 11:58:47.999030",
+    "success": true,
+    "error_message": null
+  }
+]

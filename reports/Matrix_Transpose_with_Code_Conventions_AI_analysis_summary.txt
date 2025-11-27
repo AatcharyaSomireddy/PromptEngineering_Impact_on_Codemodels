@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: Matrix Transpose with Code Conventions
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-11-03 15:03:23
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. ZERO SHOT           : 0.219827s average
+2. FEW SHOT            : 0.225102s average
+3. COT                 : 0.487146s average
+4. PERSONA             : 1.249556s average
+5. TEMPLATE            : 1.638690s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. CODET5 SMALL        : 0.633408s average
+2. STARCODER 1B        : 0.894721s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. COT                 : 25.0 tokens average
+2. ZERO SHOT           : 27.5 tokens average
+3. PERSONA             : 33.0 tokens average
+4. TEMPLATE            : 39.0 tokens average
+5. FEW SHOT            : 52.0 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Zero Shot (0.219827s)
+  Fastest AI Model: Codet5 Small (0.633408s)
+  Most Token Efficient: Cot (25.0 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 8958155.6% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

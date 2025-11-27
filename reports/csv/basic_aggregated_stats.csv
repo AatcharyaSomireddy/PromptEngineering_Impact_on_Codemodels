@@ -1,0 +1,4 @@
+,,success,time_s,time_s,time_s,time_s,tokens,tokens
+,,mean,mean,std,min,max,mean,std
+strategy,model,,,,,,,
+unknown,unknown,1.0,0.897279,1.410624,1.2e-05,5.068892,37.066667,22.770491

@@ -1,0 +1,16 @@
+problem,problem_id,model,strategy,success,time_s,tokens,error_message,efficiency_score
+Find Leaf Nodes in a Binary Tree,basic,local-stub,zero_shot,True,0.0001316070556640625,55,None,10000.0
+Find Leaf Nodes in a Binary Tree,basic,starcoder-1b,zero_shot,True,0.2728426456451416,49,None,3665.116197783089
+Find Leaf Nodes in a Binary Tree,basic,codet5-small,zero_shot,True,5.12640905380249,15,None,195.06831965706183
+Find Leaf Nodes in a Binary Tree,basic,local-stub,cot,True,2.7418136596679688e-05,56,None,10000.0
+Find Leaf Nodes in a Binary Tree,basic,starcoder-1b,cot,True,0.28623032569885254,49,None,3493.689907099906
+Find Leaf Nodes in a Binary Tree,basic,codet5-small,cot,True,0.163191556930542,1,None,6127.767997370247
+Find Leaf Nodes in a Binary Tree,basic,local-stub,few_shot,True,1.4543533325195312e-05,55,None,10000.0
+Find Leaf Nodes in a Binary Tree,basic,starcoder-1b,few_shot,True,0.27263808250427246,49,None,3667.8661719399715
+Find Leaf Nodes in a Binary Tree,basic,codet5-small,few_shot,True,1.4324407577514648,4,None,698.1091501261965
+Find Leaf Nodes in a Binary Tree,basic,local-stub,persona,True,6.842613220214844e-05,56,None,10000.0
+Find Leaf Nodes in a Binary Tree,basic,starcoder-1b,persona,True,0.31277918815612793,49,None,3197.143665136814
+Find Leaf Nodes in a Binary Tree,basic,codet5-small,persona,True,1.7406740188598633,31,None,574.490105077226
+Find Leaf Nodes in a Binary Tree,basic,local-stub,template,True,1.4066696166992188e-05,56,None,10000.0
+Find Leaf Nodes in a Binary Tree,basic,starcoder-1b,template,True,0.30272865295410156,49,None,3303.288242595311
+Find Leaf Nodes in a Binary Tree,basic,codet5-small,template,True,0.20189213752746582,1,None,4953.1398906703735

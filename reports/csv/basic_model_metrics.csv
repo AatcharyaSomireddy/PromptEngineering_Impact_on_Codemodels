@@ -1,0 +1,4 @@
+model,basic_success_rate,avg_time_s,avg_tokens,total_attempts,successful_generations
+local-stub,1.0000,0.000,55.4,5,5
+starcoder-1b,1.0000,0.249,49.0,5,5
+codet5-small,1.0000,3.214,8.4,5,5

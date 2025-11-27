@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: Find Leaf Nodes in a Binary Tree
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-10-15 10:23:03
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. FEW SHOT            : 0.143357s average
+2. TEMPLATE            : 0.233995s average
+3. PERSONA             : 0.653411s average
+4. ZERO SHOT           : 0.714642s average
+5. COT                 : 0.784776s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. CODET5 SMALL        : 0.341936s average
+2. STARCODER 1B        : 0.670137s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. TEMPLATE            : 25.5 tokens average
+2. COT                 : 30.5 tokens average
+3. PERSONA             : 31.5 tokens average
+4. ZERO SHOT           : 50.0 tokens average
+5. FEW SHOT            : 52.0 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Few Shot (0.143357s)
+  Fastest AI Model: Codet5 Small (0.341936s)
+  Most Token Efficient: Template (25.5 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 18165942.4% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

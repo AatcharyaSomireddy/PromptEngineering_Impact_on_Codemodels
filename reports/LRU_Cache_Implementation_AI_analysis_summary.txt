@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: LRU Cache Implementation
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-11-08 18:45:42
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. FEW SHOT            : 0.459279s average
+2. COT                 : 0.566363s average
+3. ZERO SHOT           : 0.632801s average
+4. PERSONA             : 0.708995s average
+5. TEMPLATE            : 1.119370s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. CODET5 SMALL        : 0.490660s average
+2. STARCODER 1B        : 0.904063s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. COT                 : 25.5 tokens average
+2. TEMPLATE            : 28.0 tokens average
+3. PERSONA             : 34.5 tokens average
+4. ZERO SHOT           : 42.5 tokens average
+5. FEW SHOT            : 51.5 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Few Shot (0.459279s)
+  Fastest AI Model: Codet5 Small (0.490660s)
+  Most Token Efficient: Cot (25.5 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 12929050.0% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

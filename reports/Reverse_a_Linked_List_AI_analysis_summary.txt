@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: Reverse a Linked List
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-10-15 10:20:43
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. FEW SHOT            : 0.161511s average
+2. TEMPLATE            : 0.218721s average
+3. PERSONA             : 0.332494s average
+4. ZERO SHOT           : 0.550287s average
+5. COT                 : 0.802973s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. CODET5 SMALL        : 0.323169s average
+2. STARCODER 1B        : 0.503226s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. TEMPLATE            : 25.0 tokens average
+2. PERSONA             : 29.5 tokens average
+3. ZERO SHOT           : 33.0 tokens average
+4. COT                 : 41.5 tokens average
+5. FEW SHOT            : 52.0 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Few Shot (0.161511s)
+  Fastest AI Model: Codet5 Small (0.323169s)
+  Most Token Efficient: Template (25.0 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 14970420.6% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

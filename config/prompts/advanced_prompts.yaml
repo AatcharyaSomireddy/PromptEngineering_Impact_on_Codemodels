@@ -1,0 +1,94 @@
+# config/prompts/advanced_prompts.yaml
+# ---------------------------------------------------------------
+# Advanced prompt set for Java code-generation benchmarking.
+# Strategies:
+#   • constraint_focused   – emphasises input / output contracts
+#   • pattern_based        – forces the model to follow a design pattern
+#   • few_shot             – provides a solved example before the task
+# ---------------------------------------------------------------
+
+prompts:
+  # ──────────────────────────────────────────────────────────────
+  - name: "java_constraint_focused"
+    strategy: "constraint_focused"
+    template: |
+      You are an experienced Java engineer.
+
+      TASK
+      ----
+      Write a method that solves the problem below *exactly*.
+      Method signature must be public and static.
+
+      PROBLEM
+      -------
+      {problem_description}
+
+      HARD CONSTRAINTS
+      ----------------
+      {constraints}
+
+      SOFT CONSTRAINTS
+      ----------------
+      • O(time): state the worst-case time complexity at the top as a line comment.
+      • No external libraries except java.util.* .
+      • Return only the Java class code—no explanation text.
+
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 200
+    complexity_level: "intermediate"
+
+  # ──────────────────────────────────────────────────────────────
+  - name: "java_pattern_singleton"
+    strategy: "pattern_based"
+    template: |
+      Implement the solution using the Singleton design pattern.
+
+      PROBLEM
+      -------
+      {problem_description}
+
+      REQUIREMENTS
+      -----------
+      1. Provide a Singleton class named Solution.
+      2. Include a public static method `getInstance()` that returns the singleton.
+      3. Put the solving logic in a public method named `solve`.
+      4. Respect any additional constraints: {constraints}
+
+      Return ONLY the complete Java code for the class.
+
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 220
+    complexity_level: "intermediate"
+
+  # ──────────────────────────────────────────────────────────────
+  - name: "java_few_shot_array_example"
+    strategy: "few_shot"
+    template: |
+      Below is an example (**** delimiter) followed by a new problem.
+
+      ****
+      EXAMPLE PROBLEM
+      Calculate the product of all elements in an int array.
+
+      EXAMPLE SOLUTION
+      public class Example {
+          public static long arrayProduct(int[] nums) {
+              if (nums == null) return 1;
+              long prod = 1;
+              for (int n : nums) prod *= n;
+              return prod;
+          }
+      }
+      ****
+
+      NEW PROBLEM
+      {problem_description}
+
+      CONSTRAINTS
+      {constraints}
+
+      Please provide only the Java class named Solution that solves the **new** problem.
+
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 300
+    complexity_level: "advanced"

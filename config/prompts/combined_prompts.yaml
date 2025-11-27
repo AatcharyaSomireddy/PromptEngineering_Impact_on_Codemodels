@@ -1,0 +1,91 @@
+prompts:
+  - name: "zero_shot_java"
+    strategy: "zero_shot"  # Must match enum value
+    template: |
+      Generate Java code for: {problem_description}
+      Constraints: {constraints}
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 150
+
+  - name: "cot_java"  
+    strategy: "cot"  # Must match enum value
+    template: |
+      Think step by step:
+      1. Understand: {problem_description}
+      2. Consider: {constraints}
+      3. Implement Java solution
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 300
+
+  # Add other strategies...
+
+  - name: "few_shot_java"
+    strategy: "few_shot"
+    template: |
+      Here are examples of Java solutions:
+
+      Example 1 - Count odd numbers:
+      public class Solution {{
+          public static int countOdd(int[] nums) {{
+              int count = 0;
+              for (int num : nums) {{
+                  if (num % 2 != 0) count++;
+              }}
+              return count;
+          }}
+      }}
+
+      Example 2 - Find maximum:
+      public class Solution {{
+          public static int findMax(int[] nums) {{
+              if (nums.length == 0) return 0;
+              int max = nums[0];
+              for (int i = 1; i < nums.length; i++) {{
+                  if (nums[i] > max) max = nums[i];
+              }}
+              return max;
+          }}
+      }}
+
+      Now solve: {problem_description}
+      Constraints: {constraints}
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 200
+
+  - name: "persona_java"
+    strategy: "persona"
+    template: |
+      You are a senior Java developer with 10+ years of experience writing clean, efficient code.
+      
+      As an expert programmer, solve this challenge:
+      Problem: {problem_description}
+      Constraints: {constraints}
+      
+      Provide a professional Java solution:
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 180
+
+  - name: "template_java"
+    strategy: "template"
+    template: |
+      Fill in this Java template for the problem:
+      
+      Problem: {problem_description}
+      Constraints: {constraints}
+      
+      public class Solution {{
+          public static [RETURN_TYPE] solve([PARAMETERS]) {{
+              // Step 1: Handle edge cases
+              [VALIDATION]
+              
+              // Step 2: Main algorithm
+              [ALGORITHM]
+              
+              // Step 3: Return result
+              [RETURN]
+          }}
+      }}
+      
+      Replace brackets with appropriate code:
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 150

@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt=\"Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\", strategy='few_shot', problem_id='valid_parentheses', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 4.00543212890625e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-15 10:26:22.966799",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\", strategy='few_shot', problem_id='valid_parentheses', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.37347865104675293,
+    "token_count": 49,
+    "timestamp": "2025-10-15 10:26:23.340368",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\", strategy='few_shot', problem_id='valid_parentheses', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "if (ar !=(ar != '[') 'brackets are closed,are closed.\nConstraints: Brackets areand thehasthe righttheto beafter theis valid.(ar.length == 0) return 0;\ncsp=(string) {\ncif if (ar.lengthis;) ) return 2( ar . length ==<= 0)=",
+    "execution_time": 5.321058750152588,
+    "token_count": 34,
+    "timestamp": "2025-10-15 10:26:28.661488",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Generate Java code for: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\", strategy='zero_shot', problem_id='valid_parentheses', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a Java method that checks whet...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.9550323486328125e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-15 10:26:28.661580",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Generate Java code for: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\", strategy='zero_shot', problem_id='valid_parentheses', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.41107940673828125,
+    "token_count": 49,
+    "timestamp": "2025-10-15 10:26:29.072686",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Generate Java code for: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\", strategy='zero_shot', problem_id='valid_parentheses', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "function(English)()brackets.end()return",
+    "execution_time": 0.36625170707702637,
+    "token_count": 1,
+    "timestamp": "2025-10-15 10:26:29.439030",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n\", strategy='template', problem_id='valid_parentheses', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.430511474609375e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-15 10:26:29.439079",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n\", strategy='template', problem_id='valid_parentheses', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.35062098503112793,
+    "token_count": 49,
+    "timestamp": "2025-10-15 10:26:29.789718",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n\", strategy='template', problem_id='valid_parentheses', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "{\n\nUpdate\"{{{ ,\".( true() {\"}\n\"\";{\n\nMatch brackets[GROUGH]\nGroUGH]}.}\n\nReplace brackets with}\n\nReplace brackets( ) {\nParseTree\" \"{}\"{) ;}( \" \" ) ;",
+    "execution_time": 1.6036345958709717,
+    "token_count": 23,
+    "timestamp": "2025-10-15 10:26:31.393405",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Think step by step:\\n1. Understand: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\n2. Consider: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n3. Implement Java solution\\n\", strategy='cot', problem_id='valid_parentheses', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a Java method that ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.193450927734375e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-15 10:26:31.393506",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Think step by step:\\n1. Understand: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\n2. Consider: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n3. Implement Java solution\\n\", strategy='cot', problem_id='valid_parentheses', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.3443937301635742,
+    "token_count": 49,
+    "timestamp": "2025-10-15 10:26:31.737922",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"Think step by step:\\n1. Understand: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\n2. Consider: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n3. Implement Java solution\\n\", strategy='cot', problem_id='valid_parentheses', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "..s)fixcode.\n4.function:braces.\n4.()",
+    "execution_time": 0.5774555206298828,
+    "token_count": 3,
+    "timestamp": "2025-10-15 10:26:32.315422",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\\nProvide a professional Java solution:\\n\", strategy='persona', problem_id='valid_parentheses', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.52587890625e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-15 10:26:32.315485",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\\nProvide a professional Java solution:\\n\", strategy='persona', problem_id='valid_parentheses', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 1.4706664085388184,
+    "token_count": 49,
+    "timestamp": "2025-10-15 10:26:33.786173",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt=\"You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that checks whether a given string containing only '(', ')', '{', '}', '[' and ']' is valid.\\nConstraints: A string is valid if brackets are closed in the correct order and every opening bracket has a corresponding closing bracket.\\n\\nProvide a professional Java solution:\\n\", strategy='persona', problem_id='valid_parentheses', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": ".code:..athe::intermediate'),))false( )());:\"\");)",
+    "execution_time": 0.8833508491516113,
+    "token_count": 2,
+    "timestamp": "2025-10-15 10:26:34.669565",
+    "success": true,
+    "error_message": null
+  }
+]

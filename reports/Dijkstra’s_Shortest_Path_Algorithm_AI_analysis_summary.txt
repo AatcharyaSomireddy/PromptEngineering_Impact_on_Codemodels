@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: Dijkstra’s Shortest Path Algorithm
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-11-03 15:05:40
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. PERSONA             : 0.054456s average
+2. FEW SHOT            : 0.336529s average
+3. COT                 : 0.606174s average
+4. ZERO SHOT           : 0.917774s average
+5. TEMPLATE            : 1.134429s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. CODET5 SMALL        : 0.511484s average
+2. STARCODER 1B        : 0.708261s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. COT                 : 25.5 tokens average
+2. TEMPLATE            : 27.5 tokens average
+3. PERSONA             : 28.0 tokens average
+4. ZERO SHOT           : 42.0 tokens average
+5. FEW SHOT            : 51.0 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Persona (0.054456s)
+  Fastest AI Model: Codet5 Small (0.511484s)
+  Most Token Efficient: Cot (25.5 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 12219919.0% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

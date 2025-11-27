@@ -1,0 +1,59 @@
+prompts:
+  - name: "basic_java_generation"
+    strategy: "basic"
+    template: |
+      Write a Java method to solve the following problem:
+
+      Problem: {problem_description}
+
+      Requirements:
+      {constraints}
+
+      Return only the Java code.
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 200
+    complexity_level: "simple"
+
+  - name: "detailed_java_generation"
+    strategy: "detailed"
+    template: |
+      You are an expert Java developer. Write a complete, well-documented Java solution for:
+
+      Problem Description: {problem_description}
+
+      Constraints: {constraints}
+
+      Example Input: {example_input}
+      Example Output: {example_output}
+
+      Please provide:
+      1. A complete Java class with proper naming
+      2. Comprehensive comments explaining the algorithm
+      3. Input validation
+      4. Error handling where appropriate
+      5. Optimal time and space complexity
+
+      Follow Java best practices and coding standards.
+    variables: ["problem_description", "constraints", "example_input", "example_output"]
+    expected_tokens: 500
+    complexity_level: "intermediate"
+
+  - name: "step_by_step_java"
+    strategy: "step_by_step"
+    template: |
+      Solve this Java programming problem step by step:
+
+      Problem: {problem_description}
+      Constraints: {constraints}
+
+      Follow these steps:
+      1. First, analyze the problem and identify the key requirements
+      2. Choose the appropriate data structures and algorithms
+      3. Write the method signature
+      4. Implement the solution with clear logic
+      5. Add comments explaining each major step
+
+      Provide the final Java code:
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 300
+    complexity_level: "intermediate"

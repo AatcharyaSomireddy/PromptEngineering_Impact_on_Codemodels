@@ -1,0 +1,6 @@
+{
+  "research_mode": true,
+  "prompts_path": "config/prompts/combined_prompts.yaml",
+  "models": ["local-stub"],
+  "max_concurrent_requests": 1
+}

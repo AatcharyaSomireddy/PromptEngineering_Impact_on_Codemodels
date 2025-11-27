@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='two_sum', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.0004229545593261719,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:31:39.172284",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='two_sum', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5693228244781494,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:31:39.742305",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='two_sum', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "[IDENTIFIER] do{[RETURN_TYPE][SUCCESS_TYPE]{[SUCCESS_TYPE][TYPE][NAME][PARAMETERS]{\n\n[SUBJECT]\n[IDENTIFIER]\n[PARAMETERS][RETURN_TYPE]}\nWrite-C[CONSTANT]\nPerformer {{[TYPE].[PARAMETERS]{\nReplace[RETURN_TYPE]",
+    "execution_time": 10.686749696731567,
+    "token_count": 9,
+    "timestamp": "2025-10-14 11:31:50.429100",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n', strategy='few_shot', problem_id='two_sum', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 6.794929504394531e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:31:50.429232",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n', strategy='few_shot', problem_id='two_sum', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5097410678863525,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:31:50.938998",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n', strategy='few_shot', problem_id='two_sum', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Create anew Class {\nAllowable publicWrite a Java method that(array is emptyArray) {index.\nConstraints: Handle nullnull(null);\nAllowable public static;\nAllowable public statictrue;\nExtendsnew Class.== null) {\nAllowable publicclass Solution {\nAllowable publicnew Classnew Class(array) {\nAllowable publicmodel = new Class(array)",
+    "execution_time": 3.4733681678771973,
+    "token_count": 41,
+    "timestamp": "2025-10-14 11:31:54.412414",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\n2. Consider: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n3. Implement Java solution\\n', strategy='cot', problem_id='two_sum', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a Java method that ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.239776611328125e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:31:54.412469",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\n2. Consider: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n3. Implement Java solution\\n', strategy='cot', problem_id='two_sum', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.3232715129852295,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:31:54.735761",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\n2. Consider: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n3. Implement Java solution\\n', strategy='cot', problem_id='two_sum', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "example:.)='_'())(",
+    "execution_time": 0.8827869892120361,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:31:55.618593",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='two_sum', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.9073486328125e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:31:55.618682",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='two_sum', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.4318203926086426,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:31:56.050527",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='two_sum', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "*/2001.0.\n\nProblem:probablyimplementation:):grunt:\n\nProblem:.\n\nProblem:english.\n\nProblemprobablyingprobably:\nProblem:probably:\nProblem:thisprobably:\nProblem:code:\n\nProblem:",
+    "execution_time": 1.5529050827026367,
+    "token_count": 9,
+    "timestamp": "2025-10-14 11:31:57.603474",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n', strategy='zero_shot', problem_id='two_sum', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a Java method that finds two n...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.4066696166992188e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:31:57.603545",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n', strategy='zero_shot', problem_id='two_sum', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.4090876579284668,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:31:58.012658",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.\\nConstraints: Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.\\n', strategy='zero_shot', problem_id='two_sum', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "*/function)end",
+    "execution_time": 0.3422369956970215,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:31:58.354953",
+    "success": true,
+    "error_message": null
+  }
+]

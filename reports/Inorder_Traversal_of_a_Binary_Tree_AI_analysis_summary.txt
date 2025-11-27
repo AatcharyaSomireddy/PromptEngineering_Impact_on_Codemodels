@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: Inorder Traversal of a Binary Tree
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-10-15 10:24:31
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. PERSONA             : 0.085209s average
+2. FEW SHOT            : 0.188092s average
+3. ZERO SHOT           : 0.803769s average
+4. TEMPLATE            : 0.886251s average
+5. COT                 : 0.952431s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. STARCODER 1B        : 0.491178s average
+2. CODET5 SMALL        : 0.675122s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. TEMPLATE            : 27.0 tokens average
+2. COT                 : 27.5 tokens average
+3. PERSONA             : 28.0 tokens average
+4. ZERO SHOT           : 35.5 tokens average
+5. FEW SHOT            : 52.5 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Persona (0.085209s)
+  Fastest AI Model: Starcoder 1B (0.491178s)
+  Most Token Efficient: Template (27.0 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 19830388.2% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

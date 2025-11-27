@@ -1,0 +1,12 @@
+{
+  "problems": [
+    {
+      "id": "two_sum",
+      "title": "Two Sum",
+      "description": "Write a Java method that finds two numbers in an array that add up to a given target and returns their indices.",
+      "constraints": "Handle null or empty arrays gracefully. Assume exactly one solution exists and an element cannot be used twice.",
+      "example_input": "Array: [2, 7, 11, 15], Target: 9",
+      "example_output": "[0, 1]"
+    }
+  ]
+}

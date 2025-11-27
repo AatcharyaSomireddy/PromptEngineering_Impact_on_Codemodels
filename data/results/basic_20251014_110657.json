@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n', strategy='zero_shot', problem_id='inorder_traversal', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a Java method that performs an...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 3.552436828613281e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:06:48.172266",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n', strategy='zero_shot', problem_id='inorder_traversal', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.2719697952270508,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:06:48.444575",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n', strategy='zero_shot', problem_id='inorder_traversal', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "}",
+    "execution_time": 3.115476131439209,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:06:51.560107",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n', strategy='few_shot', problem_id='inorder_traversal', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.5272369384765625e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:06:51.560192",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n', strategy='few_shot', problem_id='inorder_traversal', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.2806575298309326,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:06:51.840868",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n', strategy='few_shot', problem_id='inorder_traversal', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "this method is) {{\nParseResults.\nParseResults =} }\nParseResults end,}\nParseResults end:\nParseResults.\nParseResults .( ) {.\nParseResults .( )null) {\nParseResults{\nParseResults .) {) ;>= 0 ).) {( ) {2 ;{\nParseResults",
+    "execution_time": 1.8985037803649902,
+    "token_count": 33,
+    "timestamp": "2025-10-14 11:06:53.739414",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\n2. Consider: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n3. Implement Java solution\\n', strategy='cot', problem_id='inorder_traversal', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a Java method that ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.52587890625e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:06:53.739484",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\n2. Consider: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n3. Implement Java solution\\n', strategy='cot', problem_id='inorder_traversal', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.2909374237060547,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:06:54.030448",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\n2. Consider: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n3. Implement Java solution\\n', strategy='cot', problem_id='inorder_traversal', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "grammar))=",
+    "execution_time": 0.2177426815032959,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:06:54.248244",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='inorder_traversal', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.6450881958007812e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:06:54.248321",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='inorder_traversal', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.2996830940246582,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:06:54.548031",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='inorder_traversal', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "):function:\"senior\"function:.(senior;)'())0.\n\nProblem:probablyon-line=senior.()}",
+    "execution_time": 1.0737802982330322,
+    "token_count": 2,
+    "timestamp": "2025-10-14 11:06:55.621864",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='inorder_traversal', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.8835067749023438e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:06:55.621944",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='inorder_traversal', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.42634057998657227,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:06:56.048309",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that performs an inorder traversal of a binary tree and returns the result as a list.\\nConstraints: Handle empty trees gracefully. Inorder traversal follows Left -> Root -> Right.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='inorder_traversal', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "[PARAMETERS] {\n\nWarehouse{\nWarehouse[METHOD][RETURN_TYPE][FUNCTION][PARAMETER][COMMAND][COMMAND][ARGUMENT]\nAssociate// Step 4:[OBJECT];[FUNCTION]Write a([FUNCTION] {\nBuilder[FUNCTION] {={( ) {\nBuilder2:[COMMAND] urlParams}]",
+    "execution_time": 1.7758240699768066,
+    "token_count": 15,
+    "timestamp": "2025-10-14 11:06:57.824169",
+    "success": true,
+    "error_message": null
+  }
+]

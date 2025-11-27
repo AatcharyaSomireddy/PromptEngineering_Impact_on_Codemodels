@@ -1,0 +1,6 @@
+,efficiency_score,efficiency_score,efficiency_score,time_s,time_s,time_s,tokens,tokens,tokens
+model,fast-local-model,large-ai-model,medium-ai-model,fast-local-model,large-ai-model,medium-ai-model,fast-local-model,large-ai-model,medium-ai-model
+strategy,,,,,,,,,
+detailed-prompt,10000.0,,3271.90127,2.2e-05,,0.313918,55.4,,49.0
+minimal-prompt,,605.128759,4592.576858,,1.98836,0.217743,,6.0,1.0
+standard-prompt,,526.730581,,,1.898504,,,33.0,

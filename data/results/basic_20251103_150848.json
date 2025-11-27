@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n', strategy='zero_shot', problem_id='lru_cache_design', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Generate Java code for: Implement an LRU (Least Recently Use...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 4.7206878662109375e-05,
+    "token_count": 54,
+    "timestamp": "2025-11-03 15:08:28.312350",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n', strategy='zero_shot', problem_id='lru_cache_design', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.7127418518066406,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:08:29.025605",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n', strategy='zero_shot', problem_id='lru_cache_design', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "()",
+    "execution_time": 11.566486358642578,
+    "token_count": 1,
+    "timestamp": "2025-11-03 15:08:40.592128",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='lru_cache_design', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.3828277587890625e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 15:08:40.592189",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='lru_cache_design', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.9135582447052002,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:08:41.505762",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='lru_cache_design', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "2007example:\n\nProblem:.\n\nConstraints:Problems.\n\nProblem:(2008)}2008.probably2008.\nProblem:(1952).\nProblem:2006.\nProblem:)(1952)2008.(1952);()(1952).i)( 1952.",
+    "execution_time": 1.3673796653747559,
+    "token_count": 8,
+    "timestamp": "2025-11-03 15:08:42.873174",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\n2. Consider: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n3. Implement Java solution\\n', strategy='cot', problem_id='lru_cache_design', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Implement an LRU (Least R...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.5735626220703125e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 15:08:42.873244",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\n2. Consider: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n3. Implement Java solution\\n', strategy='cot', problem_id='lru_cache_design', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.4897885322570801,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:08:43.363050",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\n2. Consider: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n3. Implement Java solution\\n', strategy='cot', problem_id='lru_cache_design', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "..\n4.algorithm.*/",
+    "execution_time": 0.18082141876220703,
+    "token_count": 2,
+    "timestamp": "2025-11-03 15:08:43.543897",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='lru_cache_design', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Implem...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 9.775161743164062e-06,
+    "token_count": 54,
+    "timestamp": "2025-11-03 15:08:43.543937",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='lru_cache_design', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5604467391967773,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:08:44.104401",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='lru_cache_design', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": ".\n\nReplace brackets with appropriate[BREAK_TYPE][FUNCTION_TYPE][FILTER_TYPE][FILTER_TYPE][BRACE_TYPE]{\n\n[BREAK_TYPE]{\n\n[BRACE_TYPE][RETURN_TYPE][RETURN][BREAK][BREAK_TYPE][BREAK_TYPE][BREAK]\n[BREAK]\n[",
+    "execution_time": 1.6475131511688232,
+    "token_count": 9,
+    "timestamp": "2025-11-03 15:08:45.751956",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n', strategy='few_shot', problem_id='lru_cache_design', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.0001609325408935547,
+    "token_count": 56,
+    "timestamp": "2025-11-03 15:08:45.752172",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n', strategy='few_shot', problem_id='lru_cache_design', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5697336196899414,
+    "token_count": 49,
+    "timestamp": "2025-11-03 15:08:46.321934",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Implement an LRU (Least Recently Used) cache using HashMap and Doubly Linked List.\\nConstraints: Provide get() and put() methods with O(1) complexity. Handle cache capacity overflow correctly.\\n', strategy='few_shot', problem_id='lru_cache_design', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "Because we want toget() and put() methods withandfunction this isthe maximumthe maximum.\nConstraints:.=..\nConstraints:= new List <. Maximal. Maximal = newnew Listnew) ;(new. Maximal = new}new. Maximal-> Maximal = new ArrayList: new ArrayList < int{",
+    "execution_time": 1.9124770164489746,
+    "token_count": 35,
+    "timestamp": "2025-11-03 15:08:48.234469",
+    "success": true,
+    "error_message": null
+  }
+]

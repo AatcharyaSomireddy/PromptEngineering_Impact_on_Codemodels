@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='binary_tree_creation', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.0006012916564941406,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:54:24.390058",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='binary_tree_creation', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.7313809394836426,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:54:25.121875",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='binary_tree_creation', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "Bouncingsenior2005.)functionfunction:.(probablyfunction:\n\nProblem:senior)function:\n\nProblem:*/))])kprobes:\n\nProblem:->senior.\n\nProblem:",
+    "execution_time": 10.27759861946106,
+    "token_count": 5,
+    "timestamp": "2025-11-03 14:54:35.399536",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='binary_tree_creation', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.1696090698242188e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:54:35.399634",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='binary_tree_creation', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.7791848182678223,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:54:36.178838",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='binary_tree_creation', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "[PARAMETERS]{new{{\nBuilderReplace{( ){}\nExtra}\n\nExtra\"[RETURN_TYPE];\nExtra[RETURN_TYPE]{{ return{false}\nExtra[RETURN_TYPE]}\nExtra][PARAMETERS]{( ) {}\nExtra",
+    "execution_time": 1.9885804653167725,
+    "token_count": 12,
+    "timestamp": "2025-11-03 14:54:38.167464",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n', strategy='few_shot', problem_id='binary_tree_creation', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.0004093647003173828,
+    "token_count": 56,
+    "timestamp": "2025-11-03 14:54:38.167948",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n', strategy='few_shot', problem_id='binary_tree_creation', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5860278606414795,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:54:38.754039",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n', strategy='few_shot', problem_id='binary_tree_creation', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "return antheThe first childto thethethe rightchild to solve.\nConstraints:the outputandthe child mapping.\nConstraints:and lefttothe-(int i =i <- Find:= 0<the}\nBuilders{\nBuilders :}{for (intif (( nums . length >!= 0",
+    "execution_time": 2.599022626876831,
+    "token_count": 29,
+    "timestamp": "2025-11-03 14:54:41.353123",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n', strategy='zero_shot', problem_id='binary_tree_creation', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a Java program to construct a ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.621246337890625e-05,
+    "token_count": 56,
+    "timestamp": "2025-11-03 14:54:41.353197",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n', strategy='zero_shot', problem_id='binary_tree_creation', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.7630913257598877,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:54:42.116313",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\nConstraints: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n', strategy='zero_shot', problem_id='binary_tree_creation', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "){->",
+    "execution_time": 0.1889967918395996,
+    "token_count": 1,
+    "timestamp": "2025-11-03 14:54:42.305354",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\n2. Consider: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n3. Implement Java solution\\n', strategy='cot', problem_id='binary_tree_creation', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a Java program to c...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.3828277587890625e-05,
+    "token_count": 56,
+    "timestamp": "2025-11-03 14:54:42.305419",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\n2. Consider: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n3. Implement Java solution\\n', strategy='cot', problem_id='binary_tree_creation', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5296688079833984,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:54:42.835111",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java program to construct a binary tree from a given list of node values and print its inorder traversal.\\n2. Consider: Handle null nodes gracefully. Ensure correct left and right child mapping.\\n3. Implement Java solution\\n', strategy='cot', problem_id='binary_tree_creation', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "it.grammar.\n4.",
+    "execution_time": 0.27897095680236816,
+    "token_count": 2,
+    "timestamp": "2025-11-03 14:54:43.114127",
+    "success": true,
+    "error_message": null
+  }
+]

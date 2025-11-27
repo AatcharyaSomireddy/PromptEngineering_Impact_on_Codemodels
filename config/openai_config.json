@@ -1,0 +1,12 @@
+{
+  "research_mode": true,
+  "prompts_path": "config/prompts/combined_prompts.yaml",
+  "models": ["local-stub"],
+  "max_concurrent_requests": 1,
+  "model_settings": {
+    "local-stub": {
+      "use_api": true,
+      "openai_api_key": "sk-your-actual-api-key-here"
+    }
+  }
+}

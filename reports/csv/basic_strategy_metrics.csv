@@ -1,0 +1,6 @@
+strategy,basic_success_rate,avg_time_s,avg_tokens,total_attempts,successful_generations
+zero_shot,1.0000,1.670,35.0,3,3
+persona,1.0000,1.420,35.7,3,3
+few_shot,1.0000,1.315,42.7,3,3
+template,1.0000,1.195,39.3,3,3
+cot,1.0000,0.173,35.3,3,3

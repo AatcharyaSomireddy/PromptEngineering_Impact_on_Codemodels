@@ -1,0 +1,40 @@
+==========================================================================================
+ AI CODE GENERATION BENCHMARK ANALYSIS
+==========================================================================================
+ Problem: Two Sum
+ Analysis Type: AI Models Only (No Template Systems)
+ Total AI Experiments: 10
+ Models Compared: starcoder-1b, codet5-small
+ Analysis Date: 2025-11-21 11:06:33
+
+ AI STRATEGY EFFECTIVENESS RANKING:
+1. PERSONA             : 0.075717s average
+2. ZERO SHOT           : 0.160279s average
+3. FEW SHOT            : 0.255958s average
+4. TEMPLATE            : 1.020876s average
+5. COT                 : 1.215700s average
+
+ AI MODEL PERFORMANCE RANKING:
+1. STARCODER 1B        : 0.360326s average
+2. CODET5 SMALL        : 0.731086s average
+
+ AI TOKEN EFFICIENCY RANKING:
+1. PERSONA             : 28.0 tokens average
+2. TEMPLATE            : 28.5 tokens average
+3. ZERO SHOT           : 28.5 tokens average
+4. COT                 : 40.5 tokens average
+5. FEW SHOT            : 52.5 tokens average
+
+ KEY AI INSIGHTS:
+  Best AI Strategy: Persona (0.075717s)
+  Fastest AI Model: Starcoder 1B (0.360326s)
+  Most Token Efficient: Persona (28.0 tokens)
+  AI Success Rate: 100.0%
+  Performance Range: 12242429.3% difference between best and worst AI combinations
+
+ RESEARCH IMPLICATIONS:
+ This analysis compares only AI models for meaningful insights
+ Template systems (local-stub) excluded for fair comparison
+ Results show genuine AI model and strategy effectiveness
+
+==========================================================================================

@@ -1,0 +1,16 @@
+problem,model,strategy,success,time_s,tokens,error_message,efficiency_score
+unknown-problem,fast-local-model,detailed-prompt,True,3.552436828613281e-05,55,,10000.0
+unknown-problem,medium-ai-model,detailed-prompt,True,0.2719697952270508,49,,3676.878894456503
+unknown-problem,large-ai-model,minimal-prompt,True,3.115476131439209,1,,320.9782254175208
+unknown-problem,fast-local-model,detailed-prompt,True,2.5272369384765625e-05,56,,10000.0
+unknown-problem,medium-ai-model,detailed-prompt,True,0.2806575298309326,49,,3563.061360236433
+unknown-problem,large-ai-model,standard-prompt,True,1.8985037803649902,33,,526.730581388544
+unknown-problem,fast-local-model,detailed-prompt,True,1.52587890625e-05,56,,10000.0
+unknown-problem,medium-ai-model,detailed-prompt,True,0.2909374237060547,49,,3437.1652407644146
+unknown-problem,medium-ai-model,minimal-prompt,True,0.2177426815032959,1,,4592.57685767438
+unknown-problem,fast-local-model,detailed-prompt,True,1.6450881958007812e-05,55,,10000.0
+unknown-problem,medium-ai-model,detailed-prompt,True,0.2996830940246582,49,,3336.8582343778094
+unknown-problem,large-ai-model,minimal-prompt,True,1.0737802982330322,2,,931.2892047335549
+unknown-problem,fast-local-model,detailed-prompt,True,1.8835067749023438e-05,55,,10000.0
+unknown-problem,medium-ai-model,detailed-prompt,True,0.42634057998657227,49,,2345.5426176684737
+unknown-problem,large-ai-model,minimal-prompt,True,1.7758240699768066,15,,563.1188454456868

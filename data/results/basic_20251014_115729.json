@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n', strategy='few_shot', problem_id='reverse_linked_list', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.00034332275390625,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:57:14.917116",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n', strategy='few_shot', problem_id='reverse_linked_list', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.34708166122436523,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:57:15.264561",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n', strategy='few_shot', problem_id='reverse_linked_list', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "model: {{addNext(int[], nums) {\nWhichnew head,new head,new tail,thisnew right,new head .(new head.\nWhichnewthisnew head,new head,new head,{\nWhichnew tail,new head.\nWhichnew(new head,new head.new head, \"c\"",
+    "execution_time": 6.675487279891968,
+    "token_count": 24,
+    "timestamp": "2025-10-14 11:57:21.940115",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n', strategy='zero_shot', problem_id='reverse_linked_list', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a Java method that reverses a ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.574920654296875e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:57:21.940243",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n', strategy='zero_shot', problem_id='reverse_linked_list', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5508320331573486,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:57:22.491098",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n', strategy='zero_shot', problem_id='reverse_linked_list', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "()",
+    "execution_time": 0.16060233116149902,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:57:22.651742",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='reverse_linked_list', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.1219253540039062e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:57:22.651833",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='reverse_linked_list', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.4800229072570801,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:57:23.131885",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='reverse_linked_list', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "Write{English:syntax:english:)))))()=semantic:\n\nProblem:()).(=).(;)(",
+    "execution_time": 1.8442409038543701,
+    "token_count": 2,
+    "timestamp": "2025-10-14 11:57:24.976162",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that reverses a singly linked list and returns the new head.\\n2. Consider: Handle empty and single-node lists gracefully.\\n3. Implement Java solution\\n', strategy='cot', problem_id='reverse_linked_list', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a Java method that ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.6927719116210938e-05,
+    "token_count": 56,
+    "timestamp": "2025-10-14 11:57:24.976254",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that reverses a singly linked list and returns the new head.\\n2. Consider: Handle empty and single-node lists gracefully.\\n3. Implement Java solution\\n', strategy='cot', problem_id='reverse_linked_list', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.28168463706970215,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:57:25.257962",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a Java method that reverses a singly linked list and returns the new head.\\n2. Consider: Handle empty and single-node lists gracefully.\\n3. Implement Java solution\\n', strategy='cot', problem_id='reverse_linked_list', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": ":\"_suggestions\"",
+    "execution_time": 0.235382080078125,
+    "token_count": 1,
+    "timestamp": "2025-10-14 11:57:25.493387",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='reverse_linked_list', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int processArray(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 1.7404556274414062e-05,
+    "token_count": 55,
+    "timestamp": "2025-10-14 11:57:25.493461",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='reverse_linked_list', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.27467846870422363,
+    "token_count": 49,
+    "timestamp": "2025-10-14 11:57:25.768168",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a Java method that reverses a singly linked list and returns the new head.\\nConstraints: Handle empty and single-node lists gracefully.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='reverse_linked_list', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "[PROC]{equivalent:[RETURN_TYPE][VALIDATION]\n[ALGORITHM][ALGORITHM][RETURN_TYPE]{[PARAMETERS]equivalent :\n[VALIDATION][GENERATOR_AUTOMATIC]:[ALGORITHM]\n associate[CATCH]\n[PROC]\n[METHOD][PARAMETERS]):\n[PARAMETERS]",
+    "execution_time": 3.720216751098633,
+    "token_count": 8,
+    "timestamp": "2025-10-14 11:57:29.488446",
+    "success": true,
+    "error_message": null
+  }
+]

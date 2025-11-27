@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n', strategy='zero_shot', problem_id='sum_of_array_recursive', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int calculateSum(int[] nums) {\n        // AI-generated method for: Generate Java code for: Write a recursive method to compute ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.7418136596679688e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:58:15.228409",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n', strategy='zero_shot', problem_id='sum_of_array_recursive', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.698638916015625,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:58:15.927109",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n', strategy='zero_shot', problem_id='sum_of_array_recursive', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": ":",
+    "execution_time": 7.506698369979858,
+    "token_count": 1,
+    "timestamp": "2025-11-03 14:58:23.433850",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='sum_of_array_recursive', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int calculateSum(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Write ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.0265579223632812e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:58:23.433932",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='sum_of_array_recursive', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5880739688873291,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:58:24.022026",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='sum_of_array_recursive', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "[PARAMETERS]equivalent[RETURN_TYPE]{[OBJECT]function(1[RETURN_TYPE][EXPRESSION]e.g.{\nEg[EXCEPTION][RETURN]{}e.g.[RETURN_TYPE]g[RETURN]{ return[RETURN_TYPE]) {[RETURN]\nExtra}; }",
+    "execution_time": 1.5148723125457764,
+    "token_count": 6,
+    "timestamp": "2025-11-03 14:58:25.536947",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='sum_of_array_recursive', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int calculateSum(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.1457672119140625e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:58:25.537040",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='sum_of_array_recursive', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.732567310333252,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:58:26.269637",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='sum_of_array_recursive', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "for.english.\n\nProblem:provide a)(probable:\n\nProblem:probable:\n\nProblem:iprobable:function')());return;])=function\"1) {;()(",
+    "execution_time": 2.701267957687378,
+    "token_count": 6,
+    "timestamp": "2025-11-03 14:58:28.970962",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a recursive method to compute the sum of all elements in an array.\\n2. Consider: Do not use loops. Handle empty arrays gracefully.\\n3. Implement Java solution\\n', strategy='cot', problem_id='sum_of_array_recursive', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int calculateSum(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Write a recursive method ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.6464462280273438e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:58:28.971075",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a recursive method to compute the sum of all elements in an array.\\n2. Consider: Do not use loops. Handle empty arrays gracefully.\\n3. Implement Java solution\\n', strategy='cot', problem_id='sum_of_array_recursive', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.6757302284240723,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:58:29.646848",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Write a recursive method to compute the sum of all elements in an array.\\n2. Consider: Do not use loops. Handle empty arrays gracefully.\\n3. Implement Java solution\\n', strategy='cot', problem_id='sum_of_array_recursive', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "function",
+    "execution_time": 0.1908550262451172,
+    "token_count": 1,
+    "timestamp": "2025-11-03 14:58:29.837783",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n', strategy='few_shot', problem_id='sum_of_array_recursive', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 2.5510787963867188e-05,
+    "token_count": 56,
+    "timestamp": "2025-11-03 14:58:29.837887",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n', strategy='few_shot', problem_id='sum_of_array_recursive', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.46845436096191406,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:58:30.306375",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Write a recursive method to compute the sum of all elements in an array.\\nConstraints: Do not use loops. Handle empty arrays gracefully.\\n', strategy='few_shot', problem_id='sum_of_array_recursive', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "\u0432\u0430\u0433\u043e\u0432\u0430\u0442\u044cE---<-A simple list of1 - FindAll elements in the array.{\ncare{ if (nums.length) {\ncare!= 0)0;\ncare= 0;\ncica add: add:- Find oddinadd: add: add:{\nc",
+    "execution_time": 2.9184529781341553,
+    "token_count": 26,
+    "timestamp": "2025-11-03 14:58:33.224938",
+    "success": true,
+    "error_message": null
+  }
+]

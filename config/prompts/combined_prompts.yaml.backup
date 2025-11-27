@@ -1,0 +1,20 @@
+prompts:
+  - name: "zero_shot_java"
+    strategy: "zero_shot"  # Must match enum value
+    template: |
+      Generate Java code for: {problem_description}
+      Constraints: {constraints}
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 150
+
+  - name: "cot_java"  
+    strategy: "cot"  # Must match enum value
+    template: |
+      Think step by step:
+      1. Understand: {problem_description}
+      2. Consider: {constraints}
+      3. Implement Java solution
+    variables: ["problem_description", "constraints"]
+    expected_tokens: 300
+
+  # Add other strategies...

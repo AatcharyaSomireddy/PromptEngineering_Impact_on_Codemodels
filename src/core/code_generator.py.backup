@@ -1,0 +1,86 @@
+import asyncio
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Dict, List, Optional, Any
+
+from src.utils.logger import Logger
+# from src.models.openai_client import OpenAIClient  ← COMMENTED OUT
+
+logger = Logger().get()
+
+@dataclass
+class GenerationRequest:
+    prompt: str
+    strategy: str
+    problem_id: str
+    model_name: str
+    temperature: float = 0.7
+    max_tokens: int = 1500
+
+@dataclass
+class GenerationResult:
+    request: GenerationRequest
+    generated_code: str
+    execution_time: float
+    token_count: int
+    timestamp: datetime
+    success: bool
+    error_message: Optional[str] = None
+
+class CodeGenerator:
+    def __init__(self, model_clients: Dict[str, Any]):
+        self.clients = model_clients
+
+    async def _generate(self, request: GenerationRequest) -> GenerationResult:
+    try:
+        start_time = time.time()
+        
+        model = self.models[request.model_name]
+        resp = await model.generate_code(
+            request.prompt,
+            temperature=request.temperature,
+            max_tokens=request.max_tokens
+        )
+        
+        execution_time = time.time() - start_time
+        
+        # Handle both string and dict responses
+        if isinstance(resp, dict):
+            generated_code = resp.get("code", resp.get("text", str(resp)))
+            token_count = resp.get("token_count", len(generated_code.split()))
+        else:
+            # resp is a plain string
+            generated_code = str(resp)
+            token_count = len(generated_code.split())
+        
+        return GenerationResult(
+            request=request,
+            generated_code=generated_code,
+            execution_time=execution_time,
+            token_count=token_count,
+            timestamp=datetime.now().isoformat(),
+            success=True,
+            error_message=None
+        )
+        
+    except Exception as e:
+        return GenerationResult(
+            request=request,
+            generated_code="",
+            execution_time=0,
+            token_count=0,
+            timestamp=datetime.now().isoformat(),
+            success=False,
+            error_message=str(e)
+        )
+
+
+    async def batch_generate(self, requests: List[GenerationRequest]):
+        sem = asyncio.Semaphore(5)
+
+        async def safe_gen(r: GenerationRequest):
+            async with sem:
+                return await self._generate(r)
+
+        tasks = [safe_gen(r) for r in requests]
+        return await asyncio.gather(*tasks)

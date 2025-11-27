@@ -1,0 +1,137 @@
+[
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n', strategy='zero_shot', problem_id='dijkstra_shortest_path', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Generate Java code for: Implement Dijkstra\u2019s algorithm to fi...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.003199338912963867,
+    "token_count": 53,
+    "timestamp": "2025-11-03 14:56:42.451456",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n', strategy='zero_shot', problem_id='dijkstra_shortest_path', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.5796940326690674,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:56:43.031751",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Generate Java code for: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n', strategy='zero_shot', problem_id='dijkstra_shortest_path', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "=()",
+    "execution_time": 8.057709693908691,
+    "token_count": 1,
+    "timestamp": "2025-11-03 14:56:51.089546",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='dijkstra_shortest_path', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Fill in this Java template for the problem:\n\nProblem: Implem...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 3.814697265625e-05,
+    "token_count": 54,
+    "timestamp": "2025-11-03 14:56:51.089671",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='dijkstra_shortest_path', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.4629983901977539,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:56:51.552700",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Fill in this Java template for the problem:\\n\\nProblem: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n\\npublic class Solution {\\n    public static [RETURN_TYPE] solve([PARAMETERS]) {\\n        // Step 1: Handle edge cases\\n        [VALIDATION]\\n        \\n        // Step 2: Main algorithm\\n        [ALGORITHM]\\n        \\n        // Step 3: Return result\\n        [RETURN]\\n    }\\n}\\n\\nReplace brackets with appropriate code:\\n', strategy='template', problem_id='dijkstra_shortest_path', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "{goto:{{}}{\n\n}\n\nReplace brackets with appropriatefalse[RETURN_TYPE];]goto:\n\nConsume [RETURN]{[PREF_RETURN_TYPE]{\nConsume[METHOD]{}[COMMAND]\nConsume [PARAMETERS]{\nConsume [COMMAND][COMMAND]goto[COMMAND]",
+    "execution_time": 1.8701958656311035,
+    "token_count": 13,
+    "timestamp": "2025-11-03 14:56:53.422967",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n', strategy='few_shot', problem_id='dijkstra_shortest_path', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int countOddNumbers(int[] nums) {\n        // AI-generated method for: Here are examples of Java solutions:\n\nExample 1 - Count odd ...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 0.00014352798461914062,
+    "token_count": 56,
+    "timestamp": "2025-11-03 14:56:53.423179",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n', strategy='few_shot', problem_id='dijkstra_shortest_path', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.7975537776947021,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:56:54.220780",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Here are examples of Java solutions:\\n\\nExample 1 - Count odd numbers:\\npublic class Solution {\\n    public static int countOdd(int[] nums) {\\n        int count = 0;\\n        for (int num : nums) {\\n            if (num % 2 != 0) count++;\\n        }\\n        return count;\\n    }\\n}\\n\\nExample 2 - Find maximum:\\npublic class Solution {\\n    public static int findMax(int[] nums) {\\n        if (nums.length == 0) return 0;\\n        int max = nums[0];\\n        for (int i = 1; i < nums.length; i++) {\\n            if (nums[i] > max) max = nums[i];\\n        }\\n        return max;\\n    }\\n}\\n\\nNow solve: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n', strategy='few_shot', problem_id='dijkstra_shortest_path', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": ".\nConstraints:(i) {\nEvere:Gijkstra\u2019s algorithm..(int) == 0.\nEvere:(0,nums.length) == 0) return 0;{\nFibre:= 0;\nEvere:{\nEvere: Gijkstra\u2019s algorithm.\nEvere: Gij",
+    "execution_time": 3.796886920928955,
+    "token_count": 20,
+    "timestamp": "2025-11-03 14:56:58.017806",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='dijkstra_shortest_path', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: You are a senior Java developer with 10+ years of experience...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 4.839897155761719e-05,
+    "token_count": 55,
+    "timestamp": "2025-11-03 14:56:58.017944",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='dijkstra_shortest_path', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.6003518104553223,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:56:58.618342",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='You are a senior Java developer with 10+ years of experience writing clean, efficient code.\\n\\nAs an expert programmer, solve this challenge:\\nProblem: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\nConstraints: Graph must not contain negative weights. Handle disconnected vertices properly.\\n\\nProvide a professional Java solution:\\n', strategy='persona', problem_id='dijkstra_shortest_path', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "*/Germanthisgermansenior)(eslint-disable-lineEgeslint-disable-lineeslint-enable-line)eslint-disable-lineeslint-disable-line..\n\nConstraints:(.==.( ) )0.05.0.0.0.0.0.0.0.0",
+    "execution_time": 3.210127830505371,
+    "token_count": 4,
+    "timestamp": "2025-11-03 14:57:01.828534",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\n2. Consider: Graph must not contain negative weights. Handle disconnected vertices properly.\\n3. Implement Java solution\\n', strategy='cot', problem_id='dijkstra_shortest_path', model_name='local-stub', temperature=0.7, max_tokens=1500)",
+    "generated_code": "public class Solution {\n    public static int findElements(int[] nums) {\n        // AI-generated method for: Think step by step:\n1. Understand: Implement Dijkstra\u2019s algo...\n        if (nums == null || nums.length == 0) return 0;\n        \n        int result = 0;\n        for (int num : nums) {\n            // Process each element\n            result++;\n        }\n        return result;\n    }\n}",
+    "execution_time": 3.600120544433594e-05,
+    "token_count": 53,
+    "timestamp": "2025-11-03 14:57:01.828643",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\n2. Consider: Graph must not contain negative weights. Handle disconnected vertices properly.\\n3. Implement Java solution\\n', strategy='cot', problem_id='dijkstra_shortest_path', model_name='starcoder-1b', temperature=0.7, max_tokens=1500)",
+    "generated_code": "// Error generating code: bigcode/tiny_starcoder is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`",
+    "execution_time": 0.4848337173461914,
+    "token_count": 49,
+    "timestamp": "2025-11-03 14:57:02.313503",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "request": "GenerationRequest(prompt='Think step by step:\\n1. Understand: Implement Dijkstra\u2019s algorithm to find the shortest path from a given source vertex to all other vertices in a weighted graph.\\n2. Consider: Graph must not contain negative weights. Handle disconnected vertices properly.\\n3. Implement Java solution\\n', strategy='cot', problem_id='dijkstra_shortest_path', model_name='codet5-small', temperature=0.7, max_tokens=1500)",
+    "generated_code": "\u2019s)*/",
+    "execution_time": 0.6037459373474121,
+    "token_count": 1,
+    "timestamp": "2025-11-03 14:57:02.917307",
+    "success": true,
+    "error_message": null
+  }
+]

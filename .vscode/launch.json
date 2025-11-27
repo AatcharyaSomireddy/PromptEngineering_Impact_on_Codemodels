@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Benchmark",
+      "type": "python",
+      "request": "launch",
+      "program": "main.py",
+      "args": ["--problem-set", "basic"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

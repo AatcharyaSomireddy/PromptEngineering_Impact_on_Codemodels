@@ -1,0 +1,11 @@
+problem,problem_id,model,strategy,success,time_s,tokens,error_message,efficiency_score
+Two Sum,basic,starcoder-1b,zero_shot,True,0.31933164596557617,1,None,3036.452804491574
+Two Sum,basic,codet5-small,zero_shot,True,0.0012264251708984375,56,None,1781.8120372637318
+Two Sum,basic,starcoder-1b,cot,True,0.738469123840332,49,None,814.0212729758222
+Two Sum,basic,codet5-small,cot,True,1.6929309368133545,32,None,496.7880326699571
+Two Sum,basic,starcoder-1b,few_shot,True,2.288818359375e-05,56,None,1785.6413034178834
+Two Sum,basic,codet5-small,few_shot,True,0.5118937492370605,49,None,998.1098302704228
+Two Sum,basic,starcoder-1b,persona,True,0.15142035484313965,1,None,6195.005586326152
+Two Sum,basic,codet5-small,persona,True,1.3828277587890625e-05,55,None,1818.1361060167878
+Two Sum,basic,starcoder-1b,template,True,0.5923876762390137,49,None,923.8833940485288
+Two Sum,basic,codet5-small,template,True,1.4493637084960938,8,None,653.8666992322933
